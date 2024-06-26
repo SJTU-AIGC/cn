@@ -1,4 +1,4 @@
 ---
 layout: contact
-title: "Contact"
+title: "联系我们"
 ---
