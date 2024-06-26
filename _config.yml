@@ -1,0 +1,4 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "SJTU AIGC Class" # the name of your site, e.g. ACME Corp.
+description: "Shanghai Jiao Tong University Artificial Intelligence Generated Content Class"

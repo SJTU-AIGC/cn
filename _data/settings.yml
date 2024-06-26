@@ -1,0 +1,29 @@
+menu:
+- {name: 'team', url: '/team'}
+# - {name: 'publications', url: '/publications'}
+- {name: 'awards', url: '/awards'}
+- {name: 'teaching', url: '/teaching'}
+# - {name: 'cv', url: '/cv'}
+- {name: 'join&nbsp;us', url: '/joinus'}
+- {name: 'contact', url: '/contact'}
+- {name: '中', url: '/cn/'}
+
+
+people:
+- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
+- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+
+# courses:
+# - {name: 'Vector Calculus', url: 'vector-calculus'}
+# - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+# - {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+
+contacts:
+- {name: 'Kevin ZHAO Weiming', title: 'Head of Class', department: 'SJTU AIGC Class', institution: 'Shanghai Jiao Tong University', institution_address: '800 Dongchuan Road, Minhang, Shanghai, China', email: 'aigc#sjtu.edu.cn', office: 'Room B300, Student Innovation Center'}
