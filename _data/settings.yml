@@ -6,7 +6,7 @@ menu:
 # - {name: 'cv', url: '/cv'}
 - {name: 'join&nbsp;us', url: '/joinus'}
 - {name: 'contact', url: '/contact'}
-- {name: 'EN', url: '/'}
+- {name: 'EN', url: 'https://sjtu-aigc.github.io/'}
 
 
 people:
