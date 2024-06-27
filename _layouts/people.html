@@ -18,3 +18,35 @@ layout: default
   </div>
 </div>
 {% endfor %}
+
+
+<h4 class="fw-bold pb-3 mb-5">第一届 AIGC Class (2023)</h4>
+
+<div class="team-container">
+  {% for person in site.data.settings.classof2023 %}
+  <div class="team-member">
+    <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}">
+    <h3>{{ person.name }}</h3>
+    <p>{{ person.school }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+.team-member {
+  flex: 0 1 200px;
+  margin: 20px;
+  text-align: center;
+}
+.team-member img {
+  width: 100px;
+  height: 100px;
+}
+</style>
+

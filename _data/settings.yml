@@ -19,6 +19,36 @@ people:
 # - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 # - {name: 'Stellar Structures', url: 'stellar-structures'}
 
+classof2023: 
+# - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
+# - {name: 'Zicong CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/chengzicong.png', url: ''}
+- {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
+- {name: 'Zicong CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/chengzicong.png', url: ''}
+- {name: 'Shan GAO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/gaoshan.png', url: ''}
+- {name: 'Rui GE', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/gerui.png', url: ''}
+- {name: 'Yuhan GUO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/guoyuhan.png', url: ''}
+- {name: 'Junxiao KONG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/kongjunxiao.png', url: ''}
+- {name: 'Dongxiao LI', school: 'Ecole d'Ingénieurs Paris at SJTU', image: 'assets/img/classof2023/lidongxiao.png', url: ''}
+- {name: 'Jize LIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/liujize.png', url: ''}
+- {name: 'Yitian LIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/liuyitian.png', url: ''}
+- {name: 'Jiacheng LU', school: 'Antai College of Economics and Management', image: 'assets/img/classof2023/lujiacheng.png', url: ''}
+- {name: 'Zerui PENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/pengzerui.png', url: ''}
+- {name: 'Bolin QIU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/qiubolin.png', url: ''}
+- {name: 'Yikang RUAN', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/ruanyikang.png', url: ''}
+- {name: 'Zhe SHUAI', school: 'School of Design', image: 'assets/img/classof2023/shuaizhe.png', url: ''}
+- {name: 'Xinwen TONG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/tongxinwen.png', url: ''}
+- {name: 'Yuhang WANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/wangyuhang.png', url: ''}
+- {name: 'Xinyuan XIA', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xiaxinyuan.png', url: ''}
+- {name: 'Congsheng XU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xucongsheng.png', url: ''}
+- {name: 'Heyi XU', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/xuheyi.png', url: ''}
+- {name: 'Guanju YAN', school: 'School of Physics and Astronomy', image: 'assets/img/classof2023/yanguanju.png', url: ''}
+- {name: 'Yikun ZENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zengyikun.png', url: ''}
+- {name: 'Jiashuo ZHANG', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/zhangjiashuo.png', url: ''}
+- {name: 'Wenkang ZHANG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zhangwenkang.png', url: ''}
+- {name: 'Yu ZHAO', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/zhaoyu.png', url: ''}
+- {name: 'Yimao ZHOU', school: 'School of Humanities', image: 'assets/img/classof2023/zhouyimao.png', url: ''}
+
+
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
