@@ -19,6 +19,13 @@ people:
 # - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 # - {name: 'Stellar Structures', url: 'stellar-structures'}
 
+headofclass:
+# - {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'primary-investigator'}
+- {name: '楚朋志', title: '实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/chupengzhi.png', url: ''}
+- {name: '晏轶超', title: '助理教授', department: '人工智能研究院', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.png', url: 'https://daodaofr.github.io'}
+- {name: '赵伟明', title: '实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://zwm0426.github.io'}
+
+
 classof2023: 
 # - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
 # - {name: 'Zicong CHENG', school: 'School of Electronic Information and Electrical Engineering', image: 'assets/img/classof2023/chengzicong.png', url: ''}
