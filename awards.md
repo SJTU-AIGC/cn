@@ -1,4 +1,4 @@
 ---
 layout: awards
-title: "Awards"
+title: "获奖"
 ---

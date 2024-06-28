@@ -1,8 +1,8 @@
 menu:
 - {name: '团队', url: '/team'}
-# - {name: 'publications', url: '/publications'}
 - {name: '获奖', url: '/awards'}
-- {name: '授课', url: '/teaching'}
+- {name: '作品', url: '/publications'}
+# - {name: '授课', url: '/teaching'}
 # - {name: 'cv', url: '/cv'}
 - {name: '加入我们', url: '/joinus'}
 - {name: '联系我们', url: '/contact'}
