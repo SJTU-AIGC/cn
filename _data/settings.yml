@@ -1,11 +1,12 @@
 menu:
+- {name: '首页', url: '/'}
 - {name: '团队', url: '/team'}
 - {name: '获奖', url: '/awards'}
 - {name: '作品', url: '/publications'}
 # - {name: '授课', url: '/teaching'}
 # - {name: 'cv', url: '/cv'}
 - {name: '加入我们', url: '/joinus'}
-- {name: '联系我们', url: '/contact'}
+# - {name: '联系我们', url: '/contact'}
 # - {name: 'EN', url: ''}
 
 
