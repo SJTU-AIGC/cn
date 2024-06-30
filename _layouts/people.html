@@ -50,5 +50,19 @@ layout: default
   width: 100px;
   height: 100px;
 }
+
+/* 为移动设备添加媒体查询 */
+@media (max-width: 768px) {
+  .team-member {
+    flex: 0 1 45%; /* 每行两列 */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member {
+    flex: 0 1 100%; /* 每行一列 */
+  }
+}
+
 </style>
 
