@@ -30,6 +30,7 @@ layout: default
 
 <div class="section">
 <h4 class="fw-bold pb-1 mb-2">先进设备</h4>
+
     <div class="flex-container">
         <div class="flex-text">
             <p><strong>光学动作捕捉系统：</strong></p>
@@ -165,9 +166,10 @@ layout: default
     }
 
     .flex-container {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        flex-wrap: wrap; /* 允许在小屏幕上换行 */
     }
 
     .flex-text {
@@ -177,7 +179,7 @@ layout: default
 
     .flex-image {
         flex: 0 1 300px;
-        text-align: right;
+        text-align: center; /* 确保在移动设备上居中 */
     }
 
     .flex-image img {
@@ -188,5 +190,19 @@ layout: default
     .section {
         margin-bottom: 40px; /* 调整段落之间的间距 */
     }
+
+    /* 为移动设备添加媒体查询 */
+    @media (max-width: 768px) {
+        .flex-container {
+            flex-direction: column; /* 切换为列方向 */
+        }
+        .flex-text {
+            padding-right: 0;
+        }
+        .flex-image {
+            margin-bottom: 20px; /* 增加底部间距 */
+        }
+    }
+
 </style>
 
