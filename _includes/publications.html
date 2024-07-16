@@ -2,15 +2,112 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">作品</h3>
     
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-    {% endif %} 
+    <!-- 2024/07/16 ACMMM 2024 -->
+    <div class="publication">
+      <div class="publication-image">
+        <img src="assets/img/publications/Infusion.png" alt="Infusion">
+      </div>
+      <div class="publication-details">
+        <p><strong>Infusion: Preventing Customized Text-to-Image Diffusion from Overfitting</strong></p>
+        <p><strong>ACM Multimedia 2024</strong></p>
+        <p><a href="https://zwl666666.github.io/infusion/">[项目页面]</a> &nbsp; 
+          <a href="https://github.com/zwl666666/infusion">[代码]</a> &nbsp;
+          <a href="https://arxiv.org/abs/2404.14007">[arXiv]</a></p>  
+        </p>
+
+        <div class="authors-container">
+          <div class="author-details">
+            <!-- <img src="assets/img/classof2023/xucongsheng.png" alt="Congsheng XU" class="winner-avatar"> -->
+            <span>曾伟力</span>
+          </div>
+          <div class="author-details">
+            <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="author-avatar">
+            <span>晏轶超</span>
+          </div>
+          <div class="author-details">
+            <!-- <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="author-avatar"> -->
+            <span>朱齐</span>
+          </div>
+          <div class="author-details">
+            <!-- <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="author-avatar"> -->
+            <span>陈琢</span>
+          </div>
+          <div class="author-details">
+            <img src="assets/img/faculty/chupengzhi.png" alt="Pengzhi CHU" class="author-avatar">
+            <span>楚朋志</span>
+          </div>
+          <div class="author-details">
+            <img src="assets/img/faculty/zhaoweiming.png" alt="Weiming ZHAO" class="author-avatar">
+            <span>赵伟明</span>
+          </div>
+          <div class="author-details">
+            <!-- <img src="assets/img/faculty/yanyichao.png" alt="Yichao YAN" class="author-avatar"> -->
+            <span>杨小康</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 </div>
+
+
+<style>
+  .publication {
+    display: flex;
+    flex-wrap: wrap; /* allow newline in small screen */
+    margin-bottom: 20px;
+  }
+  
+  .publication-image {
+    flex: 0 1 400px;
+    margin-right: 20px;
+  }
+  
+  .publication-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .publication-details {
+    flex: 1;
+  }
+  
+  .authors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* gap between winners */
+  }
+  
+  .author-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-avatar {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-details span {
+    line-height: 50px; /* align with imgs */
+  }
+  
+  /* media check for mobiles if width less than 768px*/
+  @media (max-width: 768px) {
+    .publication {
+      flex-direction: column; /* convert to column */
+    }
+    .publication-image {
+      margin-bottom: 20px; /* bottom margin */
+      margin-right: 0; /* delete right margin */
+    }
+    .authors-container {
+      justify-content: center; /* center */
+    }
+  }
+  </style>
+
