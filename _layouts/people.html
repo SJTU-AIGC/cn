@@ -58,13 +58,19 @@ layout: default
   margin-bottom: 2em;
 }
 .team-member {
-  flex: 0 1 200px;
+  flex: 0 1 220px;
   margin: 20px;
   text-align: center;
 }
 .team-member img {
   width: 100px;
   height: 100px;
+}
+.team-member h3 {
+  font-size: 1.2em; /* Adjust the font size if necessary */
+  white-space: nowrap; /* Prevent the name from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis if the name is too long */
 }
 
 /* 为移动设备添加媒体查询 */
