@@ -6,6 +6,22 @@ layout: default
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">团队成员</h3>
 
+<h4 class="fw-bold pb-3 mb-5">AIGC Class 荣誉主席</h4>
+
+<div class="team-container">
+  {% for person in site.data.settings.honorablechairs %}
+  <div class="team-member">
+    <img src="{{ site.github.url }}/{{ person.image }}" alt="{{ person.name }}">
+    <h3>{{ person.name }}</h3>
+    <p>{{ person.title }}</p>
+    <p>{{ person.department }}</p>
+    <!-- <a href="{{ person.url }}" target="_blank">
+      <i class="fas fa-link"></i> </a> -->
+  </div>
+  {% endfor %}
+</div>
+
+
 <h4 class="fw-bold pb-3 mb-5">AIGC Class 班主任</h4>
 
 <div class="team-container">
