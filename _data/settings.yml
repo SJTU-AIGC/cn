@@ -21,7 +21,7 @@ people:
 # - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 honorablechairs:
-- {name: '熊振华', title: '教授', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiongzhenhua.png', url: ''}
+- {name: '熊振华', title: '教授', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiongzhenhua.png', url: 'https://me.sjtu.edu.cn/teacher_directory1/xiongzhenhua'}
 - {name: '杨小康', title: '教授', department: '人工智能研究院', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yangxiaokang.png', url: ''}
 
 
