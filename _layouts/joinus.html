@@ -7,8 +7,10 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5">加入我们</h3>
 
 <div class="notification-box">
-    <p><b>第一届 SJTU AIGC Class 已经在2023年11月20日截止招募。</b></p>
-    <p><b>第二届 SJTU AIGC Class 将在2024年9—10月开始招募。</b></p>
+    <p class="hidden"><b>第一届 SJTU AIGC Class 已经在2023年11月20日截止招募。</b></p>
+    <p class="hidden"><b>第二届 SJTU AIGC Class 将于2024年11月1日——2024年11月17日招募。</b></p>
+    <p><b>第二届 SJTU AIGC Class 正在招募中，将于2024年11月17日截止。</b></p>
+    <p id="countdown"></p> <!-- 倒计时 -->
 </div>
 
 <div class="section">
@@ -155,7 +157,7 @@ layout: default
 
 <style>
     .notification-box {
-        background-color: #f0ad4e;
+        background-color: #4CAF50; /*#f0ad4e*/;
         color: white;
         padding: 15px;
         text-align: center;
@@ -191,6 +193,10 @@ layout: default
         margin-bottom: 40px; /* 调整段落之间的间距 */
     }
 
+    .hidden {
+        display: none;
+    }
+
     /* 为移动设备添加媒体查询 */
     @media (max-width: 768px) {
         .flex-container {
@@ -205,4 +211,34 @@ layout: default
     }
 
 </style>
+
+<script>
+    // 设置截止时间
+    const deadline = new Date("2024-11-17T23:59:00").getTime();
+
+    // 更新倒计时的函数
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const timeLeft = deadline - now;
+
+        // 计算天、小时、分钟和秒
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        // 显示倒计时
+        document.getElementById("countdown").innerHTML =
+            `倒计时：${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+
+        // 倒计时结束后停止更新
+        if (timeLeft < 0) {
+            clearInterval(countdownInterval);
+            document.getElementById("countdown").innerHTML = "报名已截止";
+        }
+    }
+
+    // 每秒更新倒计时
+    const countdownInterval = setInterval(updateCountdown, 1000);
+</script>
 
