@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<div class="notification-box">
+  <p><b>第二届 SJTU AIGC Class 正在招募中，将于2024年11月17日截止。</b></p>
+  <p><b>请前往<a href="https://sjtu-aigc.github.io/cn/joinus" target="_blank">“加入我们”页面</a>进行报名。</b></p>
+  <p id="countdown"></p> <!-- 倒计时 -->
+</div>
 
 <div class="row g-5 mb-5">
   <div class="col-md-6">
@@ -33,3 +38,34 @@ layout: default
     </div>  
   </div>
 </div>   -->
+
+
+<script>
+  // 设置截止时间
+  const deadline = new Date("2024-11-17T23:59:00").getTime();
+
+  // 更新倒计时的函数
+  function updateCountdown() {
+      const now = new Date().getTime();
+      const timeLeft = deadline - now;
+
+      // 计算天、小时、分钟和秒
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      // 显示倒计时
+      document.getElementById("countdown").innerHTML =
+          `距离报名截止还有 ${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+
+      // 倒计时结束后停止更新
+      if (timeLeft < 0) {
+          clearInterval(countdownInterval);
+          document.getElementById("countdown").innerHTML = "第二届 AIGC Class 报名已截止，感谢您的关注。";
+      }
+  }
+
+  // 每秒更新倒计时
+  const countdownInterval = setInterval(updateCountdown, 1000);
+</script>
