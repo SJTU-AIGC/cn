@@ -53,7 +53,7 @@ classof2023:
 - {name: '童欣文', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/tongxinwen.png', url: ''}
 - {name: '王雨杭', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/wangyuhang.png', url: ''}
 - {name: '夏欣媛', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/xiaxinyuan.png', url: ''}
-- {name: '徐聪晟', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/xucongsheng.png', url: ''}
+- {name: '徐聪晟', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/xucongsheng.png', url: 'https://acondaway.github.io'}
 - {name: '许禾翌', school: '设计学院', image: 'assets/img/classof2023/xuheyi.png', url: ''}
 - {name: '阎冠举', school: '物理与天文学院', image: 'assets/img/classof2023/yanguanju.png', url: ''}
 - {name: '曾奕锟', school: '电子信息与电气工程学院', image: 'assets/img/classof2023/zengyikun.png', url: ''}
