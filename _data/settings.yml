@@ -32,6 +32,31 @@ headofclass:
 - {name: '晏轶超', title: '助理教授', department: '人工智能研究院', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.png', url: 'https://daodaofr.github.io'}
 - {name: '赵伟明', title: '实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.png', url: 'https://zwm0426.github.io'}
 
+classof2024:
+- {name: '程军涛', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/chengjuntao.png', url: ''}
+- {name: '方达庸', school: '密西根学院', image: 'assets/img/classof2024/fangdayong.png', url: ''}
+- {name: '葛毅恒', school: '机械与动力工程学院', image: 'assets/img/classof2024/geyiheng.png', url: ''}
+- {name: '纪佳翼', school: '安泰经济与管理学院', image: 'assets/img/classof2024/jijiayi.png', url: ''}
+- {name: '琚依格', school: '设计学院', image: 'assets/img/classof2024/juyige.png', url: ''}
+- {name: '李涵骐', school: '设计学院', image: 'assets/img/classof2024/lihanqi.png', url: ''}
+- {name: '陆李昕', school: '机械与动力工程学院', image: 'assets/img/classof2024/lulixin.png', url: ''}
+- {name: '陆意', school: '溥渊未来技术学院', image: 'assets/img/classof2024/luyi.png', url: ''}
+- {name: '罗义博', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/luoyibo.png', url: ''}
+- {name: '缪沁园', school: '巴黎卓越工程师学院', image: 'assets/img/classof2024/miaoqinyuan.png', url: ''}
+- {name: '聂锦程', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/niejincheng.png', url: ''}
+- {name: '齐天', school: '数学科学学院', image: 'assets/img/classof2024/qitian.png', url: ''}
+- {name: '乔伊宁', school: '安泰经济与管理学院', image: 'assets/img/classof2024/qiaoyining.png', url: ''}
+- {name: '宋致达', school: '医学院', image: 'assets/img/classof2024/songzhida.png', url: ''}
+- {name: '万钊源', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/wanzhaoyuan.png', url: ''}
+- {name: '王陶', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/wangtao.png', url: ''}
+- {name: '王泽铭', school: '物理与天文学院', image: 'assets/img/classof2024/wangzeming.png', url: ''}
+- {name: '吴泽楠', school: '安泰经济与管理学院', image: 'assets/img/classof2024/wuzezan.png', url: ''}
+- {name: '袁一帆', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/yuanyifan.png', url: ''}
+- {name: '张林', school: '电子信息与电气工程学院', image: 'assets/img/classof2024/zhanglin.png', url: ''}
+- {name: '张天骜', school: '船舶海洋与建筑工程学院', image: 'assets/img/classof2024/zhangtianao.png', url: ''}
+- {name: '周梓谨', school: '溥渊未来技术学院', image: 'assets/img/classof2024/zhouzijin.png', url: ''}
+- {name: '朱睿', school: '安泰经济与管理学院', image: 'assets/img/classof2024/zhurui.png', url: ''}
+
 
 classof2023: 
 # - {name: 'Kangjie BAO', school: 'School of Mathematical Sciences', image: 'assets/img/classof2023/baokangjie.png', url: ''}
