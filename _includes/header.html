@@ -80,12 +80,16 @@
   `;
 
   // 设置目标时间
-  const targetTime = new Date("2024-12-24T10:52:00+08:00");
+  const targetTime = new Date("2024-12-24T10:56:00+08:00");
+  
+  // 标志变量，防止多次执行
+  let hasSwitched = false;
 
-  // 检查当前时间是否已经超过目标时间
-  function updateLogoWithAnimation() {
+// 检查当前时间是否已经超过目标时间
+function updateLogoWithAnimation() {
     const now = new Date();
-    if (now >= targetTime) {
+    if (now >= targetTime && !hasSwitched) {
+      hasSwitched = true; // 确保只执行一次
       const logoContainer = document.getElementById("logo-container");
       if (logoContainer) {
         // 渐隐旧 Logo
@@ -98,10 +102,11 @@
           });
         }
       }
+      // 停止定时器
+      clearInterval(checkTimer);
     }
   }
 
   // 页面加载时立即检查，并设置定时器每秒检查一次
-  updateLogoWithAnimation();
-  setInterval(updateLogoWithAnimation, 1000); // 每秒检查一次
+  const checkTimer = setInterval(updateLogoWithAnimation, 1000); // 每秒检查一次
 </script>
