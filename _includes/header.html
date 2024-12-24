@@ -9,8 +9,12 @@
 
 
     <a href="{{ site.github.url }}/" class="d-flex align-items-center">
-      <span> <img src="{{ site.github.url }}/assets/img/SJTU AIGC-logo-RGB.png" alt="SJTU-AIGC-Logo" width="20%"/> </span>
+      <span id="logo-container">
+        <!-- 旧 Logo -->
+        <img src="{{ site.github.url }}/assets/img/SJTU AIGC-logo-RGB.png" alt="SJTU-AIGC-Logo" class="logo"/>
+      </span>
     </a>
+
 
   
     <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
@@ -38,4 +42,66 @@
     display: inline-block; /* 保持导航链接在同一行 */
   }
   
+  
 </style>
+
+<style>
+  /* CSS 动画 */
+  .fade-out {
+    animation: fadeOut 1s forwards; /* 渐隐动画 */
+  }
+  .fade-in {
+    animation: fadeIn 1s forwards; /* 渐显动画 */
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+
+<script>
+  // 定义新 Logo 的 HTML
+  const newLogoHTML = `
+    <img src="{{ site.github.url }}/assets/img/AIGC-LOGO-v2-Color2-BlackLetters-RGB.png" alt="New SJTU-AIGC-Logo" class="logo fade-in"/>
+  `;
+
+  // 设置目标时间
+  const targetTime = new Date("2024-12-24T10:52:00+08:00");
+
+  // 检查当前时间是否已经超过目标时间
+  function updateLogoWithAnimation() {
+    const now = new Date();
+    if (now >= targetTime) {
+      const logoContainer = document.getElementById("logo-container");
+      if (logoContainer) {
+        // 渐隐旧 Logo
+        const oldLogo = logoContainer.querySelector("img");
+        if (oldLogo) {
+          oldLogo.classList.add("fade-out");
+          // 动画结束后替换新 Logo
+          oldLogo.addEventListener("animationend", () => {
+            logoContainer.innerHTML = newLogoHTML;
+          });
+        }
+      }
+    }
+  }
+
+  // 页面加载时立即检查，并设置定时器每秒检查一次
+  updateLogoWithAnimation();
+  setInterval(updateLogoWithAnimation, 1000); // 每秒检查一次
+</script>
