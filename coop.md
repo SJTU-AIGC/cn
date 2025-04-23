@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "教育合作计划"
-permalink: /cn/coop.html
+permalink: /coop.html
 ---
 
 {% include coop.html %}
