@@ -1,8 +1,8 @@
 <div class="row g-5 mb-5">
     <div>
-      <h3 class="fw-bold border-bottom pb-3 mb-4">AIGC Class 教育合作计划</h3>
+      <h3 class="fw-bold border-bottom pb-3 mb-4">上海交通大学 AIGC Class 教育合作计划</h3>
   
-      <p>“上海交通大学 AIGC Class 教育合作计划”由学生创新中心与人工智能研究院联合发起，面向产业界合作伙伴开放，共同推进生成式人工智能（AIGC）在教育、科研与人才培养中的深入应用。</p>
+      <p>“上海交通大学 AIGC Class 教育合作计划”由 上海交通大学 AIGC Class 发起，面向产业界合作伙伴开放，共同推进生成式人工智能（AIGC）在教育、科研与人才培养中的深入应用。</p>
   
       <p>通过校企合作，我们致力于打造集“教学、项目、竞赛、平台建设”于一体的协同育人体系，加速推动 AIGC 技术落地与人才成长。</p>
   
@@ -10,21 +10,55 @@
       <ul>
         <li><strong>课程共建：</strong>联合设计课程内容、派出企业讲师参与教学、评估学生项目成果</li>
         <li><strong>项目孵化：</strong>提供真实业务问题，支持学生组队研发</li>
-        <li><strong>实践基地：</strong>提供访问、实习机会，或共建校内实验室</li>
+        <li><strong>实践基地：</strong>提供访问、实习机会，或共建实验室</li>
         <li><strong>技术平台支持：</strong>开放API、模型、训练资源等</li>
+        <li><strong>资金支持：</strong>资助课程开展、竞赛组织、项目孵化及设立冠名奖学金等</li>
       </ul>
   
       <h5 class="mt-5">企业合作权益</h5>
       <ul>
-        <li>品牌展示：企业 logo 将展示在官网、宣传材料中</li>
-        <li>人才优选：优先获取学生实习、就业推荐机会</li>
-        <li>成果共创：优秀项目可进入企业孵化流程</li>
-        <li>协议合作：可签署产学合作协议、冠名课程等</li>
+        <li><strong>品牌展示：</strong>企业LOGO将展示在官网、宣传材料中</li>
+        <li><strong>人才优选：</strong>优先获取学生实习、就业推荐机会</li>
+        <li><strong>成果共创：</strong>优秀项目可进入企业孵化流程</li>
+        <li><strong>协议合作：</strong>可签署产学合作协议、冠名课程等</li>
       </ul>
+
+      <h5 class="mt-5">企业合作伙伴</h5>
+      <p>感谢以下企业对“上海交通大学 AIGC Class 教育合作计划”的支持：</p>
+        <div class="logo-grid">
+          <img src="{{ site.baseurl }}/cn/assets/img/logos/huaweiLogo.webp" alt="华为" height="60" loading="lazy">
+          <img src="{{ site.baseurl }}/cn/assets/img/logos/lenovoLogo.webp" alt="联想" height="60" loading="lazy">
+          <img src="{{ site.baseurl }}/cn/assets/img/logos/lilithLogo.webp" alt="莉莉丝" height="60" loading="lazy">
+        </div>
+      
   
-      <p class="mt-5 fw-bold">欢迎更多企业加入 AIGC Class 教育合作计划，共建产学研平台！</p>
+      <p class="mt-5 fw-bold">欢迎更多企业加入 上海交通大学 AIGC Class 教育合作计划，共建产学研平台！</p>
   
-      <p>📮 联系邮箱：<a href="mailto:aigc@sjtu.edu.cn">aigc@sjtu.edu.cn</a></p>
+      <p>📮 联系邮箱：<span id="email"></span></p>
+      <script>
+        document.getElementById("email").innerHTML = '<a href="mailto:aigc@sjtu.edu.cn">aigc@sjtu.edu.cn</a>';
+      </script>
+      <p>📍 办公地址：上海市闵行区东川路800号 上海交通大学学生创新中心B300办公室</p>
     </div>
   </div>
+  
+
+  <style>
+    .logo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem 2rem;         /* ⬅️ 横向间距2rem，纵向缩小为1.2rem */
+      align-items: center;
+      margin-top: 1.5rem;       /* ⬅️ 更紧凑 */
+      margin-bottom: 1rem;
+    }
+  
+    .logo-grid img {
+      max-width: 160px;
+      height: auto;
+      object-fit: contain;
+      margin: 0.3rem;           /* ⬅️ 减小 logo 内部上下边距 */
+    }
+  </style>
   
