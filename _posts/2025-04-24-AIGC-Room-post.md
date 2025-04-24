@@ -47,6 +47,6 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 <p>让我们一起在这片 AIGC 创想空间中，共同构筑智能未来！</p>
 
 <hr style="margin-top: 40px;">
-<p style="font-style: italic; text-align: center;">上海交通大学 AIGC Class / Creativity is all you need.</p>
+<p style="text-align: center; font-style: italic; color: #888;">上海交通大学 AIGC Class ｜Creativity is all you need.</p>
 
 </div>
