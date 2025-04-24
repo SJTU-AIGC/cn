@@ -30,9 +30,7 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 ---
 
 ## 📸 空间掠影
-
-<h3>📸 空间掠影</h3>
-<img src="{{ site.github.url }}/assets/img/posts/aigc-room-opening.webp" alt="AIGC Room 空间全景" style="max-width: 80%; height: auto; border-radius: 8px;" />
+<img src="{{ site.github.url }}/assets/img/posts/aigc-room-opening.webp" alt="AIGC Room 空间全景" style="max-width: 80%; height: auto; border-radius: 8px;" /><br>
 <small>图｜AIGC Room 空间全景</small>
 
 
@@ -46,4 +44,4 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 
 ---
 
-> *上海交通大学 AIGC Class | Creativity is all you need.*
+> 上海交通大学 AIGC Class | Creativity is all you need.
