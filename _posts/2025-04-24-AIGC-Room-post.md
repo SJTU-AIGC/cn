@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📚 SJTU AIGC Room 正式开放，开启AIGC创想空间！"
+title: "📚 SJTU AIGC Room 正式开放 开启AIGC创想空间"
 date: 2025-04-24
 categories: [newsroom]
 tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
