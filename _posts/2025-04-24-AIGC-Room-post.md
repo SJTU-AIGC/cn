@@ -32,7 +32,7 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 ## 📸 空间掠影
 
 ![AIGC Room 内部空间]({{ site.github.url }}/assets/img/posts/aigc-room-opening.webp)  
-<small>图｜AIGC Room 教学与项目空间全景</small>
+<small>图｜AIGC Room 空间全景</small>
 
 ---
 
