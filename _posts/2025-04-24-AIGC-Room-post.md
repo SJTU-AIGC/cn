@@ -31,8 +31,10 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 
 ## 📸 空间掠影
 
-![AIGC Room 内部空间]({{ site.github.url }}/assets/img/posts/aigc-room-opening.webp)  
+<h3>📸 空间掠影</h3>
+<img src="{{ site.github.url }}/assets/img/posts/aigc-room-opening.webp" alt="AIGC Room 空间全景" style="max-width: 80%; height: auto; border-radius: 8px;" />
 <small>图｜AIGC Room 空间全景</small>
+
 
 ---
 
