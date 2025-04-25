@@ -1,28 +1,45 @@
----
-layout: default
-title: "AIGC Room 使用信息"
-permalink: /cn/room-access.html
----
-
 <div class="row g-5 mb-5">
-  <div class="col-md-10 offset-md-1">
-    <h3 class="fw-bold mb-4">🔐 AIGC Room 使用信息</h3>
-
-    <p>感谢你确认您已知晓和同意遵守 AIGC Room 使用规则。</p>
-
-    <div style="border: 2px dashed #ccc; padding: 1.5rem; border-radius: 12px; background-color: #f9f9f9;">
-      <h5 class="fw-bold mb-2">📍 空间位置</h5>
-      <p>上海交通大学 闵行校区 学生创新中心 B402A 室</p>
-
-      <h5 class="fw-bold mt-4 mb-2">🔑 门禁密码</h5>
-      <p style="font-size: 1.5rem; font-weight: bold; color: #d32f2f;">6280#</p>
-
-      <h5 class="fw-bold mt-4 mb-2">⚠️ 使用须知</h5>
-      <ul>
-        <li>请勿随意外传门禁密码</li>
-        <li>使用后请保持环境整洁</li>
-      </ul>
+    <div class="col-md-10 offset-md-1">
+      <h3 class="fw-bold mb-4">🔐 AIGC Room 使用信息</h3>
+  
+      <p>感谢你确认您已知晓并同意遵守 AIGC Room 使用规则。</p>
+  
+      <!-- 输入口令区域 -->
+      <div id="check-area">
+        <label for="room-code" class="form-label">请输入通关口令以查看门禁信息：</label>
+        <input type="text" id="room-code" class="form-control" placeholder="请输入你在问卷中获得的口令" style="max-width: 300px;">
+        <button class="btn btn-primary mt-2" onclick="checkRoomCode()">确认</button>
+        <p id="check-error" style="color: red; display: none;" class="mt-2">口令错误，请重试。</p>
+      </div>
+  
+      <!-- 密码内容 -->
+      <div id="secret-area" style="display: none; margin-top: 2rem; border: 2px dashed #ccc; padding: 1.5rem; border-radius: 12px; background-color: #f9f9f9;">
+        <h5 class="fw-bold mb-2">📍 空间位置</h5>
+        <p>上海交通大学 闵行校区 学生创新中心 B402A 室</p>
+  
+        <h5 class="fw-bold mt-4 mb-2">🔑 门禁密码</h5>
+        <p style="font-size: 1.5rem; font-weight: bold; color: #d32f2f;">471410</p>
+  
+        <h5 class="fw-bold mt-4 mb-2">⚠️ 使用须知</h5>
+        <ul>
+          <li>请勿随意外传门禁密码</li>
+          <li>使用后请保持环境整洁</li>
+        </ul>
+      </div>
     </div>
-
   </div>
-</div>
+  
+  <script>
+  function checkRoomCode() {
+    const code = document.getElementById("room-code").value.trim();
+    const correct = "AIGC2025"; // ✅ 你设定的口令
+  
+    if (code === correct) {
+      document.getElementById("check-area").style.display = "none";
+      document.getElementById("secret-area").style.display = "block";
+    } else {
+      document.getElementById("check-error").style.display = "block";
+    }
+  }
+  </script>
+  
