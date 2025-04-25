@@ -12,7 +12,7 @@ AIGC Class 拥有多元化且卓越的师资力量，包括来自学生创新中
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">发起与支持单位</h3>
+    <!-- <h3 class="fw-bold border-bottom pb-3 mb-5">发起与支持单位</h3> -->
     {% include logos.html %}
   </div>
 </div>
