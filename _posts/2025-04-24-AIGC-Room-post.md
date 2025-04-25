@@ -36,7 +36,7 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
 <h3>📸 空间掠影</h3>
 <div class="room-gallery" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
 
-  <div style="flex: 1 1 300px; max-width: 30%;">
+  <div style="flex: 1 1 300px; max-width: 27%;">
     <img src="{{ site.github.url }}/assets/img/posts/aigc-room-opening.webp" alt="图1" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   </div>
 
@@ -44,11 +44,7 @@ tags: [空间启用, AIGC, 人工智能主题周, 创新中心, 教学环境]
     <img src="{{ site.github.url }}/assets/img/posts/aigc-room-2.webp" alt="图2" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   </div>
 
-  <div style="flex: 1 1 300px; max-width: 30%;">
-    <img src="{{ site.github.url }}/assets/img/posts/aigc-room-3.webp" alt="图3" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  </div>
-
-  <p style="text-align: center; color: gray; font-size: 0.9rem;">图｜AIGC Room</p>
+  <!-- <p style="text-align: center; color: gray; font-size: 0.9rem;">图｜AIGC Room</p> -->
 </div>
 
 
