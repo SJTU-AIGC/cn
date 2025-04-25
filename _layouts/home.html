@@ -23,10 +23,12 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">最新消息</h3>
-    {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y.%m.%d" }}</p>
-    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-3 mb-4">最新消息</h3>
+    <div class="news-list">
+      {% for post in site.posts %}
+        <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y.%m.%d" }}</p>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -86,3 +88,22 @@ layout: default
   // 每秒更新倒计时
   const countdownInterval = setInterval(updateCountdown, 1000);
 </script>
+
+
+<style>
+  .news-list a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .news-list a:hover {
+    text-decoration: underline;
+    color: #004080;
+  }
+  
+  .news-list p {
+    margin-bottom: 0.6rem;
+  }
+  </style>
