@@ -29,7 +29,7 @@ honorablechairs:
 headofclass:
 # - {name: 'Kevin ZHAO Weiming', title: 'Researcher', department: 'Student Innovation Center', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.webp', url: 'primary-investigator'}
 - {name: '楚朋志', title: '高级实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/chupengzhi.webp', url: 'https://www.si.sjtu.edu.cn/content/person-detail?params=69203cf7b7cf4f88bb55c94bd1f47646&menuIds=2,7,12'}
-- {name: '晏轶超', title: '助理教授', department: '人工智能研究院', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.webp', url: 'https://daodaofr.github.io'}
+- {name: '晏轶超', title: '副教授', department: '人工智能研究院', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/yanyichao.webp', url: 'https://daodaofr.github.io'}
 - {name: '谢铭烨', title: '实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/xiemingye.webp', url: 'https://myronxie.github.io/'}
 - {name: '赵伟明', title: '实验师', department: '学生创新中心', institution: 'Shanghai Jiao Tong University', image: 'assets/img/faculty/zhaoweiming.webp', url: 'https://zwm0426.github.io'}
 
